@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+   Django:
+      build: ./docker-file/Django
+      image: centos:7
+      container_name: Django
+      tty: true
+      volumes:
+        - DjangoFile:/FileDayoooo
+      
